@@ -10,9 +10,7 @@ Using diffhook is as simple as the following:
 
 ```javascript
 import diffhook from 'diffhook';
-```
 
-```javascript
 diffhook("https://brandonrninefive.github.io", 1000, testFunc, "Tick");
 ```
 
@@ -27,7 +25,7 @@ function testFunc(oldResponse, newResponse) {
 }
 ```
 
-The above setup will make an AJAX call to `https://brandonrninefive.github.io` every 1000 ms and log the string `"Tick"`. `testFunc` will only be called if the contents of the AJAX request is changed between calls.
+The above setup will make an AJAX call to `https://brandonrninefive.github.io` and log the string `"Tick"` every 1000 ms. `testFunc` will only be called if the contents of the AJAX request is changed between calls.
 
 Parameters
 ==
