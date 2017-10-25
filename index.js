@@ -17,17 +17,17 @@ function detectChange(responseText, callback, pollingStr) {
 	}
 }
 
-function makeRequest(url, callback, pollingStr, cachePath) {
+function makeRequest(url, callback, pollingStr) {
 	var xhr = new XMLHttpRequest();
 	xhr.open("GET", url, true);
 	xhr.onreadystatechange = function() {
 		if(xhr.readyState == 4) {
-			detectChange(xhr.responseText, callback, pollingStr, cachePath);
+			detectChange(xhr.responseText, callback, pollingStr);
 		}
 	};
 	xhr.send();
 }
 
-export default function diffhook(url, interval, callback, pollingStr, cachePath) {
+export default function diffhook(url, interval, callback, pollingStr) {
 	setInterval(() => { makeRequest(url, callback, pollingStr); }, interval);
 }
