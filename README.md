@@ -8,13 +8,17 @@ Getting Started
 
 Using diffhook is as simple as the following:
 
-`import diffhook from 'diffhook';`
+```javascript
+import diffhook from 'diffhook';
+```
 
-`diffhook("https://brandonrninefive.github.io", 1000, testFunc, "Tick");`
+```javascript
+diffhook("https://brandonrninefive.github.io", 1000, testFunc, "Tick");
+```
 
 where `testFunc` is defined as:
 
-```
+```javascript
 function testFunc(oldResponse, newResponse) {
 	console.log("Old Response:");
 	console.log(oldResponse);
@@ -29,6 +33,9 @@ Parameters
 ==
 
 `url` - (String) The URL of the webpage to monitor.
+
 `interval` - (Number) The interval between AJAX calls (in milliseconds).
+
 `callback` - (Function) The function to execute when a diff occurs between AJAX calls.
+
 `pollingStr` - (String) A string to log to the console each time an AJAX call is made.
