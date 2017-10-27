@@ -22,5 +22,6 @@
   },
   "dependencies": {
     "xmlhttprequest": "^1.8.0"
-  }
+  },
+  "keywords": ["diff", "webhook", "website", "monitor", "async", "asyncrhonous", "monitoring", "es6", "polling"]
 }
