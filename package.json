@@ -1,8 +1,8 @@
 {
   "name": "diffhook",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Asynchronous webhooks for monitoring changes in external webpages.",
-  "main": "index.js",
+  "main": "index.min.js",
   "repository": "https://github.com/brandonrninefive/diffhook.git",
   "author": "Brandon T. Ruggles",
   "license": "MIT",
@@ -12,15 +12,13 @@
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
-    "babel-preset-minify": "^0.2.0",
-    "http-server": "^0.10.0",
-    "webpack": "^3.8.1"
+    "babel-preset-minify": "^0.2.0"
   },
   "scripts": {
-    "start": "npm run start",
-    "build": "babel --presets=env,minify index.js -o ./build/index.min.js",
-    "testBuild": "babel --presets=env,minify test.js -o ./dev/test.min.js && babel --presets=env,minify index.js -o ./dev/index.min.js",
-    "test": "npm run testBuild  && node ./dev/test.min.js"
+    "start": "npm run build",
+    "build": "babel --presets=env,minify ./src/index.js -o ./index.min.js",
+    "testBuild": "babel --presets=env,minify ./src/test.js -o ./test.min.js && babel --presets=env,minify ./src/index.js -o ./index.min.js",
+    "test": "npm run testBuild  && node ./test.min.js"
   },
   "dependencies": {
     "xmlhttprequest": "^1.8.0"
