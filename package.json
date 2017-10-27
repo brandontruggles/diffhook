@@ -1,6 +1,6 @@
 {
   "name": "diffhook",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Asynchronous webhooks for monitoring changes in external webpages.",
   "main": "index.min.js",
   "repository": "https://github.com/brandonrninefive/diffhook.git",
@@ -23,5 +23,15 @@
   "dependencies": {
     "xmlhttprequest": "^1.8.0"
   },
-  "keywords": ["diff", "webhook", "website", "monitor", "async", "asyncrhonous", "monitoring", "es6", "polling"]
+  "keywords": [
+    "diff",
+    "webhook",
+    "website",
+    "monitor",
+    "async",
+    "asyncrhonous",
+    "monitoring",
+    "es6",
+    "polling"
+  ]
 }
