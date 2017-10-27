@@ -1,6 +1,6 @@
 {
   "name": "diffhook",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Asynchronous webhooks for monitoring changes in external webpages.",
   "main": "index.min.js",
   "repository": "https://github.com/brandonrninefive/diffhook.git",
