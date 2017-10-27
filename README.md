@@ -1,7 +1,7 @@
-diffhook
+diffhook [![license](https://img.shields.io/github/license/brandonrninefive/diffhook.svg)](https://github.com/brandonrninefive/diffhook/blob/master/LICENSE.md) [![npm version](https://img.shields.io/npm/v/diffhook.svg)](https://www.npmjs.com/package/diffhook) [![Build Status](https://travis-ci.org/brandonrninefive/diffhook.svg?branch=master)](https://travis-ci.org/brandonrninefive/diffhook) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/brandonrninefive/diffhook/issues)  
 ===
 
-Asynchronous webhooks for monitoring changes in external webpages. [![license](https://img.shields.io/github/license/brandonrninefive/diffhook.svg)](https://github.com/brandonrninefive/diffhook/blob/master/LICENSE.md) [![npm version](https://img.shields.io/npm/v/diffhook.svg)](https://www.npmjs.com/package/diffhook) [![Build Status](https://travis-ci.org/brandonrninefive/diffhook.svg?branch=master)](https://travis-ci.org/brandonrninefive/diffhook) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/brandonrninefive/diffhook/issues)  
+Asynchronous webhooks for monitoring changes in external webpages. 
 
 Getting Started
 ==
